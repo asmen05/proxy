@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2024-11-01",
+  "main": "src/index.ts",
+  "name": "prod",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "d020d238-0239-42f2-ae2b-3e0915e5613b",
+      "database_name": "patiente"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
