@@ -1,0 +1,13 @@
+name = "proxy-worker"
+type = "javascript"
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
+compatibility_date = "2025-03-27"
+
+[build]
+command = ""
+upload.format = "service-worker"
+
+[env.production]
+route = "proxy.maroctv42.workers.dev"
+zone_id = "YOUR_ZONE_ID"
