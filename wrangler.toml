@@ -1,6 +1,6 @@
 name = "proxy-worker"
 type = "javascript"
-account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+account_id = "69b63d9b08b45857f1ab190ead68c837"
 workers_dev = true
 compatibility_date = "2025-03-27"
 
